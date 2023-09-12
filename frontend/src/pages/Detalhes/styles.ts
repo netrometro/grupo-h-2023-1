@@ -49,12 +49,16 @@ const styles = StyleSheet.create({
     marginTop: 20,
   },
   butoes: {
-    backgroundColor: "#f1ecec",
+    backgroundColor: "#0cb34c",
     borderRadius: 10,
+    color: 'white',
     padding: 10,
     width: "30%",
     alignItems: "center",
   },
+  textoBotao:{
+    color: 'white'
+  }
 });
 
 export default styles;

@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
     marginBottom: 30,
   },
   butoes: {
-    backgroundColor: "#f1ecec",
+    backgroundColor: "#0cb34c",
     borderRadius: 10,
     padding: 10,
     width: "30%",
@@ -40,6 +40,9 @@ const styles = StyleSheet.create({
     width: "100%",
     padding: 10,
   },
+  textoBotoes: {
+    color: 'white'
+  }
 });
 
 export default styles;

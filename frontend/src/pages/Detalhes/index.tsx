@@ -77,10 +77,10 @@ export default function Detalhes() {
             </View>
             <View style={styles.footer} >
                 <TouchableOpacity style={styles.butoes} onPress={() => deletar()}>
-                    <Text >Deletar</Text>
+                    <Text style={styles.textoBotao}>Deletar</Text>
                 </TouchableOpacity>
                 <TouchableOpacity style={styles.butoes} onPress={() => editar()}>
-                    <Text>Editar</Text>
+                    <Text style={styles.textoBotao}>Editar</Text>
                 </TouchableOpacity>
             </View>
         </View>

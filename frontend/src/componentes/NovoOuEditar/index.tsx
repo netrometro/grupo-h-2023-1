@@ -137,7 +137,7 @@ export default function NovoOuEditar() {
 
             <View style={styles.footer}>
                 <TouchableOpacity style={styles.butoes} onPress={() => salvar()}>
-                    <Text>Salvar</Text>
+                    <Text style={styles.textoBotoes}>Salvar</Text>
                 </TouchableOpacity>
             </View>
         </View>

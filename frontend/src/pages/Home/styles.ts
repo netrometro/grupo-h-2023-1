@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
     addButao: {
         position: 'relative',
         left: '50%',
-        backgroundColor: '#f1ecec',
+        backgroundColor: '#0cb34c',
         alignItems: 'center',
         justifyContent: 'center',
         borderRadius: 100,
@@ -26,6 +26,11 @@ const styles = StyleSheet.create({
         height: 50,
     },
     textoHeader: {
+        fontSize: 23,
+        fontWeight: 'bold',
+    },
+    textoBotao: {
+        color: 'white',
         fontSize: 23,
         fontWeight: 'bold',
     },

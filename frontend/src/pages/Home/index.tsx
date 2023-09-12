@@ -33,7 +33,7 @@ export default function Home() {
             <View style={styles.header}>
                 <Text style={styles.textoHeader}>Práticas Sustentáveis</Text>
                 <TouchableOpacity style={styles.addButao} onPress={() => { navigation.navigate('Novo', {}) }}>
-                    <Text style={styles.textoHeader}>+</Text>
+                    <Text style={styles.textoBotao}>+</Text>
                 </TouchableOpacity>
             </View>
             <StatusBar style="auto" />

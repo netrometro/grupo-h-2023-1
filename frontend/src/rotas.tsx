@@ -1,7 +1,6 @@
 import Home from "./pages/Home";
 import Detalhes from "./pages/Detalhes";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import Novo from "./pages/Novo";
 import NovoOuEditar from "./componentes/NovoOuEditar";
 import { IndexProps } from "./services/PraticasService";
 
