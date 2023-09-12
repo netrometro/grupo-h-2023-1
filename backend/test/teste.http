@@ -1,0 +1,39 @@
+# Health Check da api
+GET http://localhost:3000/healthckeck
+
+###
+# Listar as praticas
+GET http://localhost:3000/api/praticas/
+
+###
+# Criar uma pratica
+POST http://localhost:3000/api/praticas/
+Content-Type: application/json
+
+{
+    "nome": "Conservação de sementes nativas",
+    "beneficios": "Preserva a diversidade genética, Adaptadas às condições locais, Reduz a dependência de sementes comerciais, Promove a resiliência",
+    "status": true
+}
+
+###
+# Atualizar uma pratica
+PUT http://localhost:3000/api/praticas/1
+Content-Type: application/json
+
+{
+    "nome": "Nome Teste - Atualizado",
+    "beneficios": "Beneficios Teste - Atualizado",
+    "status": false
+}
+
+###
+# Deletar uma pratica
+DELETE http://localhost:3000/api/praticas/2
+
+
+
+
+
+
+
